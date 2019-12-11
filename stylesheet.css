@@ -1,0 +1,159 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+@font-face{
+font-family:f3;
+src:url(fonts/f3.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f4;
+src:url(fonts/f4.ttf)format("truetype");
+}
+.style0{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f0, sans-serif;
+font-weight: bold;
+}
+.style1{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f1, sans-serif;
+}
+.style2{
+font-size:12pt;
+color:rgba(4,99,193,1.00);
+font-family:Calibri, f1, sans-serif;
+text-decoration: underline;
+}
+.style3{
+font-size:7.92pt;
+color:rgba(0,0,0,1.00);
+vertical-align: super;
+font-family:Calibri, f1, sans-serif;
+}
+.style4{
+font-size:6.48pt;
+color:rgba(0,0,0,1.00);
+vertical-align: super;
+font-family:Calibri, f2, sans-serif;
+}
+.style5{
+font-size:10.08pt;
+color:rgba(0,0,7,1.00);
+font-family:Calibri, f2, sans-serif;
+}
+.style6{
+font-size:10.08pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f2, sans-serif;
+}
+.style7{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f3, sans-serif;
+font-style: italic;
+text-decoration: underline;
+}
+.style8{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f3, sans-serif;
+font-style: italic;
+}
+.style9{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:SymbolMT, f4, sans-serif;
+}
+.p_style0{
+text-align:left;
+
+}
+.p_style1{
+text-align:left;
+line-height:14.64pt;
+}
+.p_style10{
+text-align:left;
+margin-left:18pt;
+line-height:14.64pt;
+}
+.p_style2{
+text-align:left;
+line-height:14.87pt;
+}
+.p_style3{
+text-align:left;
+line-height:14.635pt;
+}
+.p_style4{
+text-align:left;
+line-height:12.23pt;
+}
+.p_style5{
+text-align:left;
+line-height:14.63pt;
+}
+.p_style6{
+text-align:left;
+line-height:14.7167pt;
+}
+.p_style7{
+text-align:left;
+line-height:14.755pt;
+}
+.p_style8{
+text-align:left;
+margin-left:18pt;
+
+}
+.p_style9{
+text-align:left;
+margin-left:18pt;
+line-height:14.63pt;
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
